@@ -24,6 +24,15 @@
   height: 24px;
 }
 
+.main {
+  background-color: var(--common-white);
+  padding-bottom: 96px;
+
+  @media (min-width: 1440px) {
+    padding-bottom: 80px;
+  }
+}
+
 .label {
   color: var(--orange);
   font-family: var(--common-font);
@@ -224,4 +233,15 @@
   margin-bottom: 24px;
 }
 .title {
+}
+
+.footer {
+  padding: 16px;
+  background-color: var(--blue-light);
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 8px;
 }
